@@ -23,3 +23,4 @@ Demonstrate the ability to create a simple page from a mockup.
   Fabrizio Van Marciano</a>
   from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2038872">
   Pixabay</a>
+- Photo by Pixabay: https://www.pexels.com/photo/macbook-pro-beside-white-ipad-4158/
