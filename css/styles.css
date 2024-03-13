@@ -40,7 +40,7 @@ body {
 
 .navbar .nav {
   display: flex;
-  gap: 16px;
+  gap: 20px;
 }
 
 .navbar ul {
@@ -48,9 +48,13 @@ body {
 }
 
 .navbar ul li a {
-  color: var(--light-color-main);
+  color: var(--light-color-secondary);
   text-decoration: none;
   font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  color: var(--cta-color);
 }
 
 /** Header classes **/
