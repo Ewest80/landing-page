@@ -147,6 +147,33 @@ body {
   margin-right: 50px;
 }
 
+/** Call to action classes **/
+.cta {
+  padding: 100px 20px;
+}
+
+.cta .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cta-color);
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.cta .cta-text {
+  color: var(--light-color-main);
+}
+
+.cta .cta-text h2 {
+  font-weight: 900;
+}
+
+.cta .cta-text p {
+  font-size: 18px;
+}
+
+
 /** Containers **/
 
 .container {
@@ -165,13 +192,18 @@ body {
 .btn {
   background-color: var(--cta-color);
   color: var(--light-color-main);
-  padding: 5px 20px;
+  font-weight: 700;
+  padding: 10px 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 18px;
 }
 
 .btn-outline {
   border: 2px solid var(--light-color-main);
+}
+
+.btn:hover {
+  background-color: #0e67f5;
 }
